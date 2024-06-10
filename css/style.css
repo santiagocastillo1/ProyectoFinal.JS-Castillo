@@ -1,32 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
-
-.header-info{
-    background-color:  rgb(88, 189, 192);
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
 }
-h1{
-    text-align: center;
-    font-family: "Freeman", sans-serif;
-    color: rgb(110, 231, 225);
+.logo{
+     position: fixed;
+     right: 20px;
+     bottom: 10px;
+     ;
+ }
+header{
+     display: flex;
+     width: 100%;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     top: 0;
+     background-color: rgb(58, 139, 145);
+     height: 3.75rem;
 }
-h2{
-    text-align: center;
-    font-family: "Freeman", sans-serif;
-    font-size: 20px;
-    color: black;
+.navBar{
+     display: flex;
+     list-style: none;
+     gap: 1.25rem;
+     padding-right:1.25rem ;
 }
-.seccionPrueba{
+.navBar li{
+     padding:0px .625rem;
+}
+.navBar li a{
+     text-decoration: none;
+     color: rgb(8, 5, 3);
+     font-size: 1.5625rem;
+     font-family: 'Freeman';
+ }
+ .banner{
+     font-family: 'Freeman';
+     width: 100%;
+     height: 25rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .banner h1{
+     color: #59c0e9;
+ }
+ .banner button{
+     width: 200px;
+ }
+.navBar2{
+     display: flex;
+     list-style: none;
+     gap: 1.25rem;
+     padding-right:1.25rem ;
+     justify-content: center;
+     background-color: rgb(98, 110, 110);
+     height: 3.75rem;
+     font-family: 'Freeman' ;
+}
+.navBar2 li{
+     padding:0px .625rem;
+}
+.navBar2 li a{
+     text-decoration: none;
+     color: rgb(8, 5, 3);
+     font-size: 1.5625rem;
+}
+.container-card{
+    width: 15.625rem;
+    height: 18.75rem;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    position: relative;
+}
+.container-img{
+    height: 60%;
     width: 100%;
-    height: 31.25rem;
-    background-image: url(https://images.unsplash.com/photo-1500576992153-0271099def59?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
-.seccionPrueba p{
-    color: antiquewhite;
+.container-img img{
+    width: 100%;
+    height: 100%;
+}
+.container-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.container-card div h2{
+    position: relative;
+    bottom: 1.6875rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: black;
+    padding: .625rem;
+}
+@media(max-width:1024px){
+    header{
+        background-color: rgb(170, 70, 190);
+        justify-content: space-around;
+    }
+}
+@media(max-width:768px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:425px){
+     .navBar{
+        padding-top: 1.25rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+}
+.navbar li a{
+
+    text-decoration: none;
+
+    color: black;
+
+    font-size: 1.5625rem;
+
 }
 
+ 
 
+@media(max-width:1024px){
 
+    /*todo lo que ponga aca de codigo solamente va a aparecer cuando este en una medida de 1024*/
 
+    header{
 
+        background-color: lightblue;
+
+        justify-content: space-around;
+
+    }
+
+}
+
+ 
+
+@media(max-width:768px){
+
+    header{
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center;
+
+    }
+
+}
