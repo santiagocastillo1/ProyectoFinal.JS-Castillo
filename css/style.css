@@ -105,24 +105,6 @@
     background-color: black;
     padding: .625rem;
 }
-@media(max-width:425px){
-     .navBar2{
-        padding-top: 1.25rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-     }
-}
-.navBar2 li a{
-
-    text-decoration: none;
-
-    color: black;
-
-    font-size: 1.5625rem;
-
-}
-
 @container card (width > 450px){
     .article{
         display: grid;
