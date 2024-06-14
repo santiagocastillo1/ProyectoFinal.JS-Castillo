@@ -16,6 +16,7 @@
     container-name: card;
     resize: horizontal;
     flex-direction: row;
+    flow-wrap
 }
 .article{
     width: 100%;
