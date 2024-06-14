@@ -15,6 +15,7 @@
     container-type: inline-size;
     container-name: card;
     resize: horizontal;
+    flex-direction: row;
 }
 .article{
     width: 100%;
@@ -56,25 +57,7 @@
  .banner h1{
      color: #59c0e9;
  }
-.navBar2{
-     display: flex;
-     list-style: none;
-     gap: 1.25rem;
-     padding-right:1.25rem ;
-     padding-top: .625rem;
-     justify-content: center;
-     background-color: rgb(98, 110, 110);
-     height: 3.75rem;
-     font-family: 'Freeman' ;
-}
-.navBar2 li{
-     padding:0px .625rem;
-}
-.navBar2 li a{
-     text-decoration: none;
-     color: rgb(8, 5, 3);
-     font-size: 1.5625rem;
-}
+
 .container-card{
     width: 15.625rem;
     height: 18.75rem;
