@@ -10,48 +10,82 @@
 </head>
 <body>
   <header>
-    <div>
-      <a href=""> <img src="./assets/img/carrito-de-compras.png" alt=""></a>
-     </div>
-    <div>
-       <nav>
-          <ul class="navBar">
-              <li><a href="">contacto</a></li>
-              <li><a href="">mayorista</a></li>
-              <li><a href="">crear cuenta</a></li>
-              <li><a href="">iniciar sesion</a></li>   
+    <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">EFEDEPE.PG</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLight"
+          aria-controls="navbarLight" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse show" id="navbarLight">
+          <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MAYORISTA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CREAR CUENTA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">INICIAR SESION</a>
+            </li>
           </ul>
-       </nav>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="buscar stickers.." aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">BUSCAR</button>
+          </form>
+        </div>
       </div>
-    </header>
-    <main>
-      <section class="banner">
-        <h1>EFEDEPE.PG</h1>
-        <h2>vinilos autoadhesivos y cuadros</h2>
-        <button>HACE CLICK ACA</button>
-      </section>
+    </nav>
+  </header>
+  <main>
+    <section class="banner">
+      <h1>EFEDEPE.PG</h1>
+      <h2>vinilos autoadhesivos y cuadros</h2>
+      <div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="buscar stickers.." aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">BUSCAR</button>
+        </form>
+      </div>
+    </section>
     </div>
-        <nav>
-            <ul class="navBar2">
-                <li><a href="../index.html">inicio</a> </li>
-                <li><a href="./productos.html">productos</a></li>
-                <li><a href="#">como pedir un personalizado</a></li>
-                <li><a href="./cuidados.html">ciudados</a></li>
-                <li><a href="./preguntasfrecuentes.html">preguntas frecuentes</a></li>
-
-            </ul>
-        </nav>
-      </header>
-      <main>
-        <p>comopedirunpersonalizado</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore suscipit voluptatibus sint numquam, exercitationem aliquam nemo est, error, quaerat eos ab. Laborum accusantium natus voluptas sapiente vero, cum assumenda at.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore suscipit voluptatibus sint numquam, exercitationem aliquam nemo est, error, quaerat eos ab. Laborum accusantium natus voluptas sapiente vero, cum assumenda at.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore suscipit voluptatibus sint numquam, exercitationem aliquam nemo est, error, quaerat eos ab. Laborum accusantium natus voluptas sapiente vero, cum assumenda at.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore suscipit voluptatibus sint numquam, exercitationem aliquam nemo est, error, quaerat eos ab. Laborum accusantium natus voluptas sapiente vero, cum assumenda at.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore suscipit voluptatibus sint numquam, exercitationem aliquam nemo est, error, quaerat eos ab. Laborum accusantium natus voluptas sapiente vero, cum assumenda at.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore suscipit voluptatibus sint numquam, exercitationem aliquam nemo est, error, quaerat eos ab. Laborum accusantium natus voluptas sapiente vero, cum assumenda at.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore suscipit voluptatibus sint numquam, exercitationem aliquam nemo est, error, quaerat eos ab. Laborum accusantium natus voluptas sapiente vero, cum assumenda at.</p>
-      </main>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">INICIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown"
+          aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./preguntasfrecuentes.html">PREGUNTAS
+                FRECUENTES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">COMO PEDIR UN PERSONALIZADO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cuidados.html">CUIDADOS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdownMenuLink"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PRODUCTOS
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./productos.html">PLANCHAS PERSONALIZADAS</a></li>
+                <li><a class="dropdown-item" href="./productos.html">COMBOS</a></li>
+                <li><a class="dropdown-item" href="./productos.html">CUADROS</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
