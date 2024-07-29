@@ -1,0 +1,26 @@
+//variables
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+//$color-fondo: blue;
+//$color-letras: yellow;
+/* lo primero que tenemos que hacer siempre es llamar a los archivos que corresponden a los ultilies*/
+
+@import "./utilities/variables";
+
+// se llaman a los partials que corresponden a la carpeta base
+
+@import "./base/reset";
+
+// todo lo que corresponde a los layout
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+
+//componentes
+
+@import "./components/card";
+
+// por ultimo siempre van los mediaQ
+// deskstop first => las mediaquery van en orden decreciente
+// mobile first => las mediaquery son en orden creciente
+
