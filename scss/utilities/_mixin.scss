@@ -1,0 +1,15 @@
+/*
+mixins => es un bloque de codigo,
+que puede modularizarse a traves de parametros
+
+un mixin es el equivalente a una funcion de js
+*/
+
+@mixin flex($direction,$wrap,$justify,$align,$gap) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}

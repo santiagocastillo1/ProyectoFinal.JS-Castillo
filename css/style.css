@@ -20,6 +20,9 @@
   color: #59c0e9;
 }
 
+/* extend => es una herramienta que nos permite extender 
+nuestro codigo en otro bloque.
+*/
 .footer {
   background-color: #212121;
   color: #fff;
