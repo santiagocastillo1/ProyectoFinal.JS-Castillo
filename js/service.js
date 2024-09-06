@@ -23,5 +23,24 @@ function buscarServicio(arr, filtro) {
   }
   
   function crearHtml(arr) {
-    
+    contenedor.innerHTML = "";  
+    let html;
+    for (const el of arr) {
+      // Crear la estructura HTML para cada elemento
+      html = `
+        <div class="card">
+          <img src="./img/${el.img}" alt="${el.nombre}">
+          <hr>
+          <h3>${el.nombre}</h3>
+          <p>Precio: $${el.precio}</p>
+          <div class="card-action">
+            <button class="btn btn-success" id="${el.id}">Agregar</button>
+          </div>
+        </div>
+      `;
+  
+      // Agregar el contenido HTML al contenedor
+      contenedor.innerHTML = contenedor.innerHTML + html;
+    }
   }
+  
