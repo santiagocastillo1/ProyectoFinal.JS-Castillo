@@ -25,3 +25,6 @@ const producto = {
   // contenedor.innerText = concatenado;
   
   principl.innerText = template;
+
+let nombre= "santi"
+console.log(nombre);
