@@ -1,4 +1,5 @@
 const btnSwal = document.getElementById("btnSwal"),
+  btnSwal1 = document.getElementById("btnSwal1"),
   btnToast = document.getElementById("botonToast"),
   horaActual = document.querySelector("#horaActual"),
   fechaActual = document.querySelector(".fecha-actual");
@@ -26,4 +27,14 @@ btnToast.addEventListener("click", function () {
     },
     onClick: function () {},
   }).showToast();
+});
+
+btnSwal1.addEventListener("click", function () {
+  Swal.fire({
+    position: "middle",
+    icon: "success",
+    title: "Agregaste este producto al carrito.",
+    showConfirmButton: false,
+    timer: 1500,
+  });
 });
