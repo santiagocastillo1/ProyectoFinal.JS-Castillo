@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre": "piñasimetrica",
+    "precio": 1500,
+    "img": "piña.png"
+  },
+  {
+    "id": 2,
+    "nombre": "piñasimetrica",
+    "precio": 1500,
+    "img": "piña.png"
+  },
+  {
+    "id": 3,
+    "nombre": "piñasimetrica",
+    "precio": 1500,
+    "img": "piña.png"
+  },
+  {
+    "id": 4,
+    "nombre": "piñasimetrica",
+    "precio": 1500,
+    "img": "piña.png"
+  },
+  {
+    "id": 5,
+    "nombre": "piñasimetrica",
+    "precio": 1500,
+    "img": "piña.png"
+  },
+  {
+    "id": 6,
+    "nombre": "piñasimetrica",
+    "precio": 1500,
+    "img": "piña.png"
+  }
+]
