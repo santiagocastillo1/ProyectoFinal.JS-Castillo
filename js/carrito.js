@@ -4,7 +4,7 @@ const btnSwal = document.getElementById("btnSwal"),
   horaActual = document.querySelector("#horaActual"),
   fechaActual = document.querySelector(".fecha-actual");
 
-btnSwal.addEventListener("click", function () {
+const showAlert = () => {
   Swal.fire({
     position: "middle",
     icon: "success",
@@ -12,7 +12,10 @@ btnSwal.addEventListener("click", function () {
     showConfirmButton: false,
     timer: 1500,
   });
-});
+};
+
+btnSwal.addEventListener("click", showAlert);
+btnSwal1.addEventListener("click", showAlert);
 
 btnToast.addEventListener("click", function () {
   Toastify({
@@ -27,14 +30,4 @@ btnToast.addEventListener("click", function () {
     },
     onClick: function () {},
   }).showToast();
-});
-
-btnSwal1.addEventListener("click", function () {
-  Swal.fire({
-    position: "middle",
-    icon: "success",
-    title: "Agregaste este producto al carrito.",
-    showConfirmButton: false,
-    timer: 1500,
-  });
 });
