@@ -6,8 +6,8 @@
 const carrito = [];
 
 const productos = [
-  { id: 1, nombre: "Producto 1", precio: 100 },
-  { id: 2, nombre: "Producto 2", precio: 200 },
+  { id: 1, nombre: "Piña simetrica", precio: 1000 },
+  { id: 2, nombre: "Piña simetrica", precio: 1000 },
 ];
 
 const btnSwal = document.getElementById("btnSwal"),
@@ -55,7 +55,7 @@ mostrarCarritoBtn.addEventListener("click", function () {
     Swal.fire({
       title: "Carrito de Compras",
       html: productosEnCarrito,
-      icon: "info",
+      icon: "success",
       showConfirmButton: true,
     });
   }
