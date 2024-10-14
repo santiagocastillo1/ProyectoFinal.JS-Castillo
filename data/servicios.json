@@ -7,21 +7,21 @@
   },
   {
     "id": 2,
-    "nombre": "piñasimetrica",
+    "nombre": "bancario",
     "precio": 1500,
-    "img": "piña.png"
+    "img": "bancario.png"
   },
   {
     "id": 3,
-    "nombre": "piñasimetrica",
+    "nombre": "cuadro",
     "precio": 1500,
-    "img": "piña.png"
+    "img": "cuadro.png"
   },
   {
     "id": 4,
-    "nombre": "piñasimetrica",
+    "nombre": "instagram",
     "precio": 1500,
-    "img": "piña.png"
+    "img": "instagram.png"
   },
   {
     "id": 5,
