@@ -25,14 +25,14 @@
   },
   {
     "id": 5,
-    "nombre": "piñasimetrica",
+    "nombre": "alien",
     "precio": 1500,
-    "img": "piña.png"
+    "img": "alien.png"
   },
   {
     "id": 6,
-    "nombre": "piñasimetrica",
+    "nombre": "playa",
     "precio": 1500,
-    "img": "piña.png"
+    "img": "playa.png"
   }
 ]
